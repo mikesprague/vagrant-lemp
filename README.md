@@ -18,6 +18,7 @@ Once Vagrant is installed, or if it already is, it's highly recommended
 that you install the following Vagrant plugin:
 
 * [vagrant-hostupdater](https://github.com/cogitatio/vagrant-hostsupdater)
+
   ```bash
   vagrant plugin install vagrant-hostsupdater
   ```
