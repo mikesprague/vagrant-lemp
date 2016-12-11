@@ -70,6 +70,7 @@ For the MySQL details use
 * password root.
 
 NB Sequel Pro users:use the SSH tab
+
 ---
 
 ## License
