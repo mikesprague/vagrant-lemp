@@ -61,7 +61,8 @@ Once the Vagrant box finishes and is ready, you can verify PHP is working at
 To login to the server using Sequel Pro or Workbench just use 
 * host lemp.dev, 
 * user ubuntu, 
-* NO password. 
+* NO password
+* default port (22)
 
 For the MySQL details use 
 * host 127.0.0.1, 
