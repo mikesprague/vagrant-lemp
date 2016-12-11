@@ -56,7 +56,7 @@ Once the Vagrant box finishes and is ready, you can verify PHP is working at
 
 ---
 
-## Sequel Pro MySQL Workbench Access
+## Sequel Pro & MySQL Workbench Access
 
 To login to the server using Sequel Pro or Workbench just use 
 * host: lemp.dev, 
