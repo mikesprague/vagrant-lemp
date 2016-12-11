@@ -68,6 +68,7 @@ For the MySQL details use
 * user phpmyadmin and 
 * password root.
 
+NB Sequel Pro users:use the SSH tab
 ---
 
 ## License
