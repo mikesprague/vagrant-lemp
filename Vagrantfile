@@ -121,7 +121,7 @@ Vagrant.configure("2") do |config|
     echo "|     Vagrant LEMP Setup Complete     |"
     echo "======================================="
     echo ""
-    echo "http:/lemp.dev (192.168.50.75)"
+    echo "http://lemp.dev (192.168.50.75)"
     echo ""
     echo "phpMyAdmin"
     echo "http:/lemp.dev/phpmyadmin"
