@@ -45,7 +45,7 @@ Vagrant.configure("2") do |config|
     echo "Installing Nginx ..."
     sudo apt-add-repository -y ppa:nginx/development >/dev/null 2>&1
     sudo apt-get -y update >/dev/null 2>&1
-    sudo rm /usr/share/nginx/html/index.html
+    sudo rm -f /usr/share/nginx/html/index.html
     sudo apt-get -y install nginx >/dev/null 2>&1
     sudo apt-get -y -f install >/dev/null 2>&1
     sudo chown www-data /usr/share/nginx/html -R >/dev/null 2>&1
@@ -124,7 +124,7 @@ Vagrant.configure("2") do |config|
     echo "http://lemp.dev (192.168.50.75)"
     echo ""
     echo "phpMyAdmin"
-    echo "http:/lemp.dev/phpmyadmin"
+    echo "http://lemp.dev/phpmyadmin"
     echo "User: phpmyadmin"
     echo "Pass: root"
     echo ""
